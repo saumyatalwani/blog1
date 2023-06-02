@@ -11,11 +11,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "seo": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.seo"
-    },
     "hero": {
       "displayName": "hero",
       "type": "component",
