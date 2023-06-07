@@ -4,7 +4,8 @@
   "info": {
     "singularName": "writer",
     "pluralName": "writers",
-    "displayName": "Writer"
+    "displayName": "Writer",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,11 +16,12 @@
       "type": "string"
     },
     "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "email": {
       "type": "string"
@@ -29,6 +31,15 @@
       "relation": "oneToMany",
       "target": "api::article.article",
       "mappedBy": "writer"
+    },
+    "bio": {
+      "type": "richtext"
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "LinkedIn": {
+      "type": "string"
     }
   }
 }
