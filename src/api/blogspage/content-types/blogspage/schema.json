@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "blogspages",
+  "info": {
+    "singularName": "blogspage",
+    "pluralName": "blogspages",
+    "displayName": "blogspage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}
