@@ -107,8 +107,9 @@ coverage
 # Strapi
 ############################
 
-.env
+#.env
 license.txt
 exports
 *.cache
 .strapi-updater.json
+ssh-key-2023-06-13.key
